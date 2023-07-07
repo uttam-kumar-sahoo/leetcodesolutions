@@ -1,3 +1,4 @@
+#valid parenthesis
 class Solution:
     def isValid(self, s: str) -> bool:
         valid_brack = [('{', '}'), ('(', ')'), ('[', ']')]
