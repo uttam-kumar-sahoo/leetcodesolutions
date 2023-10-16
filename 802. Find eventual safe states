@@ -1,3 +1,4 @@
+#safe state
 from enum import Enum
 
 
