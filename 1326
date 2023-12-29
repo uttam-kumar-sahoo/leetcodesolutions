@@ -1,3 +1,4 @@
+#12
 class Solution:
   def minTaps(self, n: int, ranges: List[int]) -> int:
     nums = [0] * (n + 1)
