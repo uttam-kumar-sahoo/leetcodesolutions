@@ -4,7 +4,7 @@ class Solution:
     n = len(text2)
     # dp[i][j] := the length of LCS(text1[0..i), text2[0..j))
     dp = [[0] * (n + 1) for _ in range(m + 1)]
-
+ 
     for i in range(m):
       for j in range(n):
         dp[i + 1][j + 1] = \
