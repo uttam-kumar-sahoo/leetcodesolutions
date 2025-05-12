@@ -14,6 +14,6 @@ class Solution:
         res += dp(j, fuel - abs(locations[i] - locations[j]))
         res %= kMod
 
-      return res
+      return res 
 
     return dp(start, fuel)
